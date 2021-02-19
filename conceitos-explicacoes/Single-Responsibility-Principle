@@ -1,0 +1,14 @@
+
+	Princípio da Responsabilidade Única
+	
+		Não é porque se pode fazer algo, que se deve fazer
+		
+		
+	**
+	 Uma classe deveria ter apenas um único motivo para mudar 
+	 	(Uncle Bob)
+	 	
+	 	Pois uma classe deve ter uma responsabilidade única, então a alteração também deve ter um motivo único 
+	**	
+	 	
+	
