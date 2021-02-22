@@ -1,0 +1,14 @@
+
+	Princípio da Segregação de Interface (ISP)
+	
+	
+	Uma classe não deveria ser forçada a depender de métodos que não utilizará.
+	
+	
+	
+	As vezes temos que implementar metodos de uma interface que não fazem sentido na nossa classe, por exemplo, implementar um metodo 
+	
+		CalcularImpostoDeRenda, para uma classe em que o imposto seria isento.
+		
+	Se isso for muito estranho, eu poderia criar outra interface, para separar aquele metodo 
+	

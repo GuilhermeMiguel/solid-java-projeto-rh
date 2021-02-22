@@ -1,4 +1,4 @@
-package br.com.empresa.solid_java.core.Service;
+package br.com.empresa.solid_java.core.Service.Reajuste;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

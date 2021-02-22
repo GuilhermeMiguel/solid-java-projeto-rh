@@ -1,0 +1,10 @@
+
+	O Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.
+	
+		Ex:
+			List<String> arrayExemplo = new ArryList<>();
+	
+			posso trabalhar com list ou com ArrayList que não terei problemas, pois ArrayList é um List
+	
+
+	Embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;

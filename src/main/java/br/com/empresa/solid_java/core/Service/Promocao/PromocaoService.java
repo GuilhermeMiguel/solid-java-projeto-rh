@@ -1,4 +1,4 @@
-package br.com.empresa.solid_java.core.Service;
+package br.com.empresa.solid_java.core.Service.Promocao;
 
 import br.com.empresa.solid_java.data.Exception.ValidacaoException;
 import br.com.empresa.solid_java.data.Model.Cargo;

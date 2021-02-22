@@ -1,8 +1,20 @@
  
- 	O princípio Aberto/Fechado (OCP) 
+ 	O princípio da inversão de dependência (DIP) 
  	
- 	Diz que um sistema deve ser aberto para a extensão, mas fechado para a modificação
-
-		* Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muito as classes já existentes
-
-		* Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração.
+ 		* Abstrações não devem depender de implementações.
+ 		
+ 		Implementações devem depender de abstrações.
+ 		
+ 		
+ 			As interfaces, por exemplo, são abstrações de uma funcionalidade necessária no código 
+ 		
+ 		as interfaces não podem depender de implementações.
+ 		
+ 			Já as implementações, sim, elas podem e devem depender de abstrações, como interfaces.
+ 			
+ 			
+ 		Implementando esse principio automaticamente está se implementando o SOD 
+ 		
+ 		Single Responsibility 
+ 		Dependency Inversion 
+ 		e o proprio Open Closed  
